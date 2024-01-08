@@ -12,7 +12,7 @@
  1. Basic
  2. Button
  3. Color Scheme
- 4. Progress bar
+ 4. 
  5. Theme list
  6. Timeline
  7. Navigation
@@ -28,7 +28,7 @@
  */
 
 :root {
-    --theme-red: #b91515ea;
+    --theme-red: #107AD1;
     --theme-blue: #2960f7;
     --theme-green: #8cc63f;
     --theme-orange: #fd7e14;
@@ -70,6 +70,16 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
 
 .fw-bold {
     font-weight: 700;
@@ -337,7 +347,7 @@ a:hover, a:active {
 }
 
 .bg-theme-red {
-    background-color: #b91515ea !important;
+    background-color: #107AD1 !important;
 }
 
 .bg-theme-blue {
@@ -357,7 +367,7 @@ a:hover, a:active {
 }
 
 .fg-theme-red {
-    color: #b91515ea !important;
+    color: #107AD1 !important;
 }
 
 .fg-theme-blue {
@@ -402,12 +412,12 @@ a:hover, a:active {
 
 .bg-pinterest,
 .bg-hover-pinterest:hover {
-    background-color: #b91515ea !important;
+    background-color: #107AD1 !important;
 }
 
 .bg-google-plus,
 .bg-hover-google-plus:hover {
-    background-color: #b91515ea !important;
+    background-color: #107AD1 !important;
 }
 
 .bg-behance,
@@ -456,35 +466,7 @@ a:hover, a:active {
     background-color: #FE0002 !important;
 }
 
-/* 
-    4. Progressbar
-*/
-.progress-wrapper {
-    display: block;
-    margin: 10px 0;
-}
 
-.progress-wrapper .caption {
-    font-weight: 500;
-}
-
-.progress {
-    margin-top: 5px;
-    height: 1.25rem;
-    border: 2px solid #fff;
-    background-color: #fff;
-    box-shadow: 0 0 0 2px #747474;
-}
-
-.progress,
-.progress-bar {
-    border-radius: 30px;
-}
-
-.progress-bar {
-    font-size: 12px;
-    background-color: #747474;
-}
 
 /* 
     5. Preloader
@@ -1118,15 +1100,15 @@ a:hover, a:active {
 
 /* Theme red */
 .theme-red .bg-theme {
-    background-color: #b91515ea !important;
+    background-color: #107AD1 !important;
 }
 
 .theme-red .fg-theme {
-    color: #b91515ea !important;
+    color: #107AD1 !important;
 }
 
 .theme-red .btn-theme {
-    background-color: #b91515ea;
+    background-color: #107AD1;
     color: #fff;
 }
 
@@ -1136,27 +1118,27 @@ a:hover, a:active {
 }
 
 .theme-red .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #b91515ea;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #107AD1;
 }
 
 .theme-red .btn-theme-outline {
-    color: #b91515ea;
-    box-shadow: 0 0 0 2px #b91515ea;
+    color: #107AD1;
+    box-shadow: 0 0 0 2px #107AD1;
 }
 
 .theme-red .btn-theme-outline:hover {
-    background-color: #b91515ea;
+    background-color: #107AD1;
     color: #fff;
 }
 
 .theme-red .btn-theme-outline:focus {
-    background-color: #b91515ea;
+    background-color: #107AD1;
     color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #b91515ea;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #107AD1;
 }
 
 .theme-red .btn-fab {
-    background-color: #b91515ea;
+    background-color: #107AD1;
     color: #fff;
 }
 
@@ -1165,16 +1147,10 @@ a:hover, a:active {
     color: #fff;
 }
 
-.theme-red .progress {
-    box-shadow: 0 0 0 2px #b91515ea;
-}
 
-.theme-red .progress-bar {
-    background-color: #b91515ea;
-}
 
 .theme-red .theme-list li::before {
-    border-color: #b91515ea;
+    border-color: #107AD1;
 }
 
 
@@ -1227,13 +1203,7 @@ a:hover, a:active {
     color: #fff;
 }
 
-.theme-blue .progress {
-    box-shadow: 0 0 0 2px #2960f7;
-}
 
-.theme-blue .progress-bar {
-    background-color: #2960f7;
-}
 
 .theme-blue .theme-list li::before {
     border-color: #2960f7;
@@ -1289,13 +1259,6 @@ a:hover, a:active {
     color: #fff;
 }
 
-.theme-green .progress {
-    box-shadow: 0 0 0 2px #8cc63f;
-}
-
-.theme-green .progress-bar {
-    background-color: #8cc63f;
-}
 
 .theme-green .theme-list li::before {
     border-color: #8cc63f;
@@ -1351,13 +1314,7 @@ a:hover, a:active {
     color: #fff;
 }
 
-.theme-orange .progress {
-    box-shadow: 0 0 0 2px #fd7e14;
-}
 
-.theme-orange .progress-bar {
-    background-color: #fd7e14;
-}
 
 .theme-orange .theme-list li::before {
     border-color: #fd7e14;
@@ -1413,13 +1370,7 @@ a:hover, a:active {
     color: #fff;
 }
 
-.theme-purple .progress {
-    box-shadow: 0 0 0 2px #6f42c1;
-}
 
-.theme-purple .progress-bar {
-    background-color: #6f42c1;
-}
 
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
