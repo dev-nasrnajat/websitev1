@@ -113,9 +113,9 @@
 
 .page-home .badge {
   padding: 16px 24px;
-  background-color: rgba(36, 90, 239, 0.15);
-  color: #107AD1;
-  text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
+  background-color: #ee842e50;
+  color: #1694D9;
+  text-shadow: 0 2px 4px #17192566;
   font-size: 16px;
   border-radius: 40px;
 }
@@ -401,7 +401,7 @@
 
 .post-grid .post-category {
   font-weight: 500;
-  color: #107AD1;
+  color: #1694D9;
   text-decoration: none;
 }
 
@@ -497,28 +497,28 @@
 /* Theme color style */
 /* Theme Red */
 .theme-red .badge-subhead {
-  background-color: rgba(36, 148, 239, 0.15);
-  color: #107AD1;
+  background-color: #ee842e50;
+  color: #1694D9;
 }
 
 .theme-red .filterable-button .btn.selected,
 .theme-red .filterable-button .btn:focus {
-  background-color: #107AD1;
+  background-color: #1694D9;
   color: #fff;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #107AD1;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1694D9;
 }
 
 .theme-red .page-about .img-place::before {
-  border-color: #107AD1;
+  border-color: #1694D9;
 }
 
 .theme-red .timeline li:first-child .title {
-  background-color: #107AD1;
+  background-color: #1694D9;
 }
 
 .theme-red .timeline li:first-child::before {
-  background-color: #107AD1;
-  box-shadow: 0 0 0 2px #107AD1;
+  background-color: #1694D9;
+  box-shadow: 0 0 0 2px #1694D9;
 }
 
 /* Theme Blue */

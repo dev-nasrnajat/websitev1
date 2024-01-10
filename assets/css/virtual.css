@@ -28,7 +28,10 @@
  */
 
 :root {
-    --theme-red: #107AD1;
+    --blue: #1694D9;
+    --orange:#EE852E
+    
+    --theme-red: #1694D9;
     --theme-blue: #2960f7;
     --theme-green: #8cc63f;
     --theme-orange: #fd7e14;
@@ -347,7 +350,7 @@ a:hover, a:active {
 }
 
 .bg-theme-red {
-    background-color: #107AD1 !important;
+    background-color: #1694D9 !important;
 }
 
 .bg-theme-blue {
@@ -367,7 +370,7 @@ a:hover, a:active {
 }
 
 .fg-theme-red {
-    color: #107AD1 !important;
+    color: #1694D9 !important;
 }
 
 .fg-theme-blue {
@@ -412,12 +415,12 @@ a:hover, a:active {
 
 .bg-pinterest,
 .bg-hover-pinterest:hover {
-    background-color: #107AD1 !important;
+    background-color: #1694D9 !important;
 }
 
 .bg-google-plus,
 .bg-hover-google-plus:hover {
-    background-color: #107AD1 !important;
+    background-color: #1694D9 !important;
 }
 
 .bg-behance,
@@ -1100,15 +1103,15 @@ a:hover, a:active {
 
 /* Theme red */
 .theme-red .bg-theme {
-    background-color: #107AD1 !important;
+    background-color: #1694D9 !important;
 }
 
 .theme-red .fg-theme {
-    color: #107AD1 !important;
+    color: #1694D9 !important;
 }
 
 .theme-red .btn-theme {
-    background-color: #107AD1;
+    background-color: #1694D9;
     color: #fff;
 }
 
@@ -1118,27 +1121,27 @@ a:hover, a:active {
 }
 
 .theme-red .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #107AD1;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #1694D9;
 }
 
 .theme-red .btn-theme-outline {
-    color: #107AD1;
-    box-shadow: 0 0 0 2px #107AD1;
+    color: #1694D9;
+    box-shadow: 0 0 0 2px #1694D9;
 }
 
 .theme-red .btn-theme-outline:hover {
-    background-color: #107AD1;
+    background-color: #1694D9;
     color: #fff;
 }
 
 .theme-red .btn-theme-outline:focus {
-    background-color: #107AD1;
+    background-color: #1694D9;
     color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #107AD1;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #1694D9;
 }
 
 .theme-red .btn-fab {
-    background-color: #107AD1;
+    background-color: #1694D9;
     color: #fff;
 }
 
@@ -1150,7 +1153,7 @@ a:hover, a:active {
 
 
 .theme-red .theme-list li::before {
-    border-color: #107AD1;
+    border-color: #1694D9;
 }
 
 
